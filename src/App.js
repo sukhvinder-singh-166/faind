@@ -1,10 +1,11 @@
 import { useEffect } from 'react'
 import './App.css'
+import Navbar from './components/common/Navbar'
 
 function App() {
   return (
     <>
-      <p className="text-[200px] text-red-600">faind</p>
+      <Navbar />
     </>
   )
 }
