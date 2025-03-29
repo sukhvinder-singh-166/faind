@@ -7,7 +7,7 @@ const AsSeen = () => {
       <p className="mb-8 text-center text-2xl font-medium text-black">
         As Seen On
       </p>
-      <div className="mb-[60px] flex items-center justify-between gap-4 md:mb-[80px] lg:mb-[100px] lg:gap-10 xl:mb-[120px]">
+      <div className="-mb-[250px] flex items-center justify-between gap-4 sm:-mb-[200px] md:mb-[-50px] lg:gap-10 xl:mb-[-120px]">
         {asSeenCompany.map((item, i) => {
           return (
             <div
