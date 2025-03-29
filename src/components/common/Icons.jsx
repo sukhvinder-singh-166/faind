@@ -1,9 +1,34 @@
-import React from 'react'
-
-const Icons = () => {
+export const Search = () => {
   return (
-    <div>Icons</div>
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_106_6660)">
+        <path
+          d="M23.3397 23.3397C22.4593 24.2201 21.0322 24.2201 20.1518 23.3397L16.1739 19.3617C14.5385 20.4109 12.6053 21.036 10.518 21.036C4.70948 21.036 0 16.3271 0 10.518C0 4.70878 4.70948 0 10.518 0C16.3273 0 21.036 4.70869 21.036 10.518C21.036 12.6045 20.4101 14.5385 19.3617 16.1746L23.3397 20.1526C24.2201 21.033 24.2201 22.4593 23.3397 23.3397ZM10.518 3.00511C6.36905 3.00511 3.00516 6.36825 3.00516 10.5179C3.00516 14.6676 6.36909 18.0308 10.518 18.0308C14.6676 18.0308 18.0308 14.6676 18.0308 10.5179C18.0308 6.36825 14.6676 3.00511 10.518 3.00511Z"
+          fill="url(#paint0_linear_106_6660)"
+        />
+      </g>
+      <defs>
+        <linearGradient
+          id="paint0_linear_106_6660"
+          x1="0"
+          y1="0"
+          x2="24.9733"
+          y2="2.37778"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#4040F8" />
+          <stop offset="1" stop-color="#E912DC" />
+        </linearGradient>
+        <clipPath id="clip0_106_6660">
+          <rect width="24" height="24" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
   )
 }
-
-export default Icons

@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       colors: {
         purple: '#8A2BE2',
+        'light-purple': '#F5F2FA',
+        'light-black': '#2C2C2C',
       },
       backgroundImage: {
         'purple-pink-gradient':

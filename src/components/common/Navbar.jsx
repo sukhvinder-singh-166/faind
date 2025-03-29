@@ -19,7 +19,7 @@ const Navbar = () => {
   }, [isOpen])
 
   return (
-    <div className="fixed left-0 top-0 z-50 w-full bg-white py-4 shadow-md">
+    <div className="fixed top-0 z-10 w-full bg-white py-4">
       <div className="mx-auto max-w-[1440px] px-4">
         <div className="flex items-center justify-between">
           <a href="#" className="relative z-10">
@@ -34,7 +34,7 @@ const Navbar = () => {
             onClick={() => setIsOpen(!isOpen)}
           >
             <img
-              className="h-full max-h-[30px] w-full max-w-[30px]"
+              className="h-[26px] w-[26px]"
               src={isOpen ? cross : menu}
               alt={isOpen ? 'cross' : 'menu'}
             />
@@ -51,7 +51,7 @@ const Navbar = () => {
                 <li key={i} className="mb-4 xl:mb-0">
                   <a
                     href={option.href}
-                    className={`relative text-base font-normal capitalize ease-in-out after:absolute after:bottom-[-1px] after:start-[50%] after:h-[1.5px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:start-0 hover:after:w-full md:text-lg ${isActive ? 'bg-purple-pink-gradient after:!bg-purple-pink-gradient bg-clip-text text-transparent after:!start-0 after:!w-full' : 'text-black'}`}
+                    className={`relative text-lg font-normal capitalize ease-in-out after:absolute after:bottom-[-1px] after:start-[50%] after:h-[1.5px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:start-0 hover:after:w-full ${isActive ? 'bg-purple-pink-gradient after:!bg-purple-pink-gradient bg-clip-text text-transparent after:!start-0 after:!w-full' : 'text-black'}`}
                     onClick={() => setIsOpen(false)}
                   >
                     {option.title}
